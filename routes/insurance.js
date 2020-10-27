@@ -17,7 +17,7 @@ router.post("/product", (req, res) => {
 
     let item;
     const axios = require('axios');
-    axios.get(`${API_URL}${PRODUCT_PATH}?serviceKey=${API_KEY}&GOOD_ABNM=${goodAbnm}`).then(response => {
+    axios.get(`${API_URL}${PRODUCT_PATH}?serviceKey=${API_KEY}&GOOD_ABNM=`+encodeURI(`${goodAbnm}`)).then(response => {
         console.log(response.data);
         item = response.data.response.body.items.item;
 
