@@ -14,6 +14,7 @@ app.use(cookieParser());
 
 app.use('/api/insurance', require('./routes/insurance'));
 
+
 const port = process.env.PORT || 5000
 
 app.listen(port, () => {
