@@ -1,5 +1,5 @@
 module.exports = {
-    herokuURI: 'http://vast-cliffs-99081.herokuapp.com',
+    herokuURI: 'https://stark-island-15004.herokuapp.com',
     
     API_URL: 'http://apis.data.go.kr',
     API_KEY: 'Wqx9%2Fn7uausZQj64KFQSfo0yMJKnQZzZdF3AAHFMCyMTsIbaF3gbMqI0tVvq8%2BLIdC%2B1nEotTmJBaC9Yy3ukhw%3D%3D',
