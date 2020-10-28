@@ -26,4 +26,5 @@ app.listen(port, () => {
 const http = require('http');
 setInterval(function() {
   http.get(config.herokuURI);
+  http.get(config.herokuAppURI);
 }, 600000);
