@@ -12,5 +12,5 @@ module.exports = {
     FEE_CAL_PATH:'/1721301/KpostInsuranceFeeCalculationView',
 
     // 상품별약관정보
-    TERMS_PATH: '/1721301/KpostInsuranceTermsView'
+    TERMS_PATH: '/1721301/KpostInsuranceTermsView/insuranceTerms'
 }
